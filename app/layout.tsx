@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Assistant } from "next/font/google";
 import "./globals.css";
 import { defaultMetaData } from "./seo.config";
 
 // Font
-const inter = Inter({ subsets: ["latin"] });
+const inter = Assistant({ subsets: ["latin"] });
 
 // Meta Data
 export const metadata: Metadata = defaultMetaData;

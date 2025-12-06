@@ -1,6 +1,8 @@
 import React from 'react'
 
-const HomePage = () => {
+const HomePage = async () => {
+
+  await new Promise((resolve) => setTimeout(resolve, 2000)); // fake delay
 
   return (
     <div>Home page</div>
